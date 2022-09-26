@@ -1,5 +1,4 @@
-<style>
-    body { background: #eaecf0; font-weight: 500;
+body { background: #eaecf0; font-weight: 500;
 font-family: 'Poppins', sans-serif; } 
 
 	#kotak-header { 
@@ -518,4 +517,3 @@ ul .indicator::after{
   border-bottom-left-radius: 20px;
   box-shadow: 0 10px 0 #E01861;
 }
-</style>
