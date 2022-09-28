@@ -1,11 +1,9 @@
-<script>document.getElementById("ybcari").addEventListener("click", function() {          
+document.getElementById("ybcari").addEventListener("click", function() {          
           var lokasi = "https://jgjk.mobi/act/search/"+ $("input[name='ycari']").val()
           window.location.replace(lokasi);
         });
-      </script>
+     
 
-
-<script type="text/javascript">
 function animation(span) {
     span.className = "puter";
     setTimeout(function () {
@@ -63,10 +61,6 @@ function Countdown() {
 
 Countdown();
 
-</script>
-
-
-<script>
 
 const navBar = document.querySelector(".navbar")
       allLi = document.querySelectorAll("li");
@@ -82,9 +76,7 @@ allLi.forEach((li, index) => {
    });
 });
 
-</script>
 
-<script>
 function openPage(pageName,elmnt,color) {
 var i, tabcontent, tablinks;
 tabcontent = document.getElementsByClassName("tabcontent");
@@ -102,4 +94,3 @@ element.style.backgroundColor = color;
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 
-</script>
